@@ -1,8 +1,8 @@
 {
   "name": "QRcode Generator and Scanner",
-  "short_name": "QRcode Generator and Scanner",
-  "Scope": "/",
-  "start_url": "/",
+  "short_name": "QRcode",
+  "Scope": ".",
+  "start_url": "./",
   "display": "standalone",
   "theme_color": "#5BC8AC",
   "background_color": "#5BC8AC",
