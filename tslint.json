@@ -1,0 +1,52 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react"
+  ],
+  "rules": {
+    "jsx-wrap-multiline": false,
+    "jsx-no-bind": true,
+    "jsx-self-close": true,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "member-ordering": false,
+    "import-name": false,
+    "no-string-throw": true,
+    "no-unused-expression": true,
+    "no-boolean-literal-compare": false,
+    "curly": true,
+    "class-name": true,
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "triple-equals": true,
+    "no-invalid-this": true,
+    "no-var-keyword": true,
+    "indent": [true, "spaces", 2],
+    "eofline": true,
+    "deprecation": true,
+    "no-duplicate-imports": true,
+    "prefer-const": [true, {"destructuring": "all"}],
+    "prefer-readonly": true,
+    "no-consecutive-blank-lines": true,
+    "no-irregular-whitespace": true,
+    "array-bracket-spacing": true,
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "object-shorthand-properties-first": false,
+
+    "jsx-no-multiline-js": false,
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts"
+    ]
+  }
+}
